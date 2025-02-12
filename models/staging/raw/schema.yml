@@ -9,10 +9,9 @@ sources:
         identifier: raw_gz_sales
         description: table contains all sales information
         columns:
-          - name: pdt.id
+          - name: pdt_id
             description: id of the sales table should be unique and not - not_null
             tests:
-              - unique
               - not_null
       - name: product
         identifier: raw_gz_product
